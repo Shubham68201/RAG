@@ -1,0 +1,93 @@
+# ==============================
+# Environment & Secrets
+# ==============================
+.env
+.env.*
+*.env
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# ==============================
+# Jupyter Notebooks
+# ==============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ==============================
+# Vector Databases / RAG Storage
+# ==============================
+# FAISS
+*.faiss
+*.index
+faiss_store/
+faiss_index/
+
+# Chroma
+chroma/
+chromadb/
+chroma_db/
+
+# Weaviate / Milvus / Pinecone (local)
+weaviate_data/
+milvus_data/
+
+# ==============================
+# Embeddings / Cached Artifacts
+# ==============================
+embeddings/
+cache/
+.cached/
+*.pkl
+*.pickle
+
+# ==============================
+# Logs & Temp Files
+# ==============================
+logs/
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Build / Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# PDF / Uploaded Documents
+# (optional – remove if you want PDFs in repo)
+# ==============================
+data/raw_pdfs/
+uploads/
+
+# ==============================
+# FastAPI / Uvicorn
+# ==============================
+*.pid
